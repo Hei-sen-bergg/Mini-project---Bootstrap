@@ -1,33 +1,40 @@
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
 
-.navbar-brand{
-    font-size: xx-large;
-    font-weight: 700;
-}
-.nav-item{
-    font-weight: 600;
-}
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+  }
+  
 
-/* .navbar-light .navbar-brand:focus{
-    color: #000;
-} */
+  .navbar-brand {
+      font-size: xx-large;
+      font-weight: 700;
+  }
+  .nav-item{
+      font-weight: 600;
+  }
 
-.carousel-caption h1{
-    font-size: 40px;
-    letter-spacing: 5px;
-}
+  .carousel-caption h1{
+      font-size: 40px;
+      letter-spacing: 5px;
+  }
 
-.services .card-body i{
-    font-size: 50px;
-}
+  .services .card-body i{
+      font-size: 50px;
+  }
 
-#card{
-    height: 100%;
-}
+  #card{
+      height: 100%;
+  }
 
-.card .card-body{
-    height: 100%;
-}
-.card-img{
-    height: 200px; /* Adjust the height as needed */
-    object-fit: cover;
-}
+  .card .card-body{
+      height: 100%;
+  }
+  .card-img{
+      height: 200px; 
+      object-fit: cover;
+  }
+ 
